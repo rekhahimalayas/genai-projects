@@ -7,8 +7,6 @@ load_dotenv()
 from langgraph.prebuilt import create_react_agent
 
 
-
-
 class MailResponse(BaseModel):
    subject: str
    body: str
