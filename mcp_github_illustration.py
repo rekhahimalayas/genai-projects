@@ -6,10 +6,7 @@ from langchain_mcp_adapters.client import MultiServerMCPClient
 from langgraph.prebuilt import create_react_agent
 import os
 
-
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-
-
 
 async def run_agent():
    client = MultiServerMCPClient(
