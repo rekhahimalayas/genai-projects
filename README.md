@@ -23,19 +23,21 @@ Features
 Getting Started
 
 	# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-# OR
-venv\Scripts\activate      # Windows
-	# Install dependencies
-pip install -r requirements.txt
+	python -m venv venv
+	source venv/bin/activate  # Mac/Linux
+	# OR
+	venv\Scripts\activate      # Windows
+	
+ 	# Install dependencies
+	pip install -r requirements.txt
+
 	## Environment Variables
 	Create a `.env` file with the following keys:
 	```ini
-OPENAI_API_KEY=your_openai_key  
-GROQ_API_KEY=your_groq_key  
-GITHUB_TOKEN=your_github_token  
-GOOGLE_API_KEY=your_google_api_key 
+	OPENAI_API_KEY=your_openai_key  
+	GROQ_API_KEY=your_groq_key  
+	GITHUB_TOKEN=your_github_token  
+	GOOGLE_API_KEY=your_google_api_key 
 	
 -----------------------------------------------------------------------------------------------------------------------------
 
